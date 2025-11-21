@@ -48,11 +48,11 @@ Close the window to exit the simulation.
 ## Physics Background
 
 ### Temperature
-Temperature is calculated from the average kinetic energy of particles:
+Temperature is calculated from the average kinetic energy per particle:
 ```
-T = <KE> / k_B
+T = <KE> = (Total KE) / N
 ```
-where we use k_B = 1 for simplicity (natural units).
+Using the equipartition theorem for 2D systems with k_B = 1 (natural units), where <KE> is the mean kinetic energy per particle.
 
 ### Pressure
 Pressure is calculated from the momentum transfer on the walls:

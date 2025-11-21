@@ -97,8 +97,9 @@ class Box2D:
     def temperature(self):
         """
         Calculate temperature from kinetic energy.
-        In 2D: KE = N * k_B * T (using equipartition theorem for 2 degrees of freedom)
-        We'll use k_B = 1 for simplicity, so T = KE / N
+        Using equipartition theorem for 2D: <KE> = k_B * T per particle
+        where <KE> is the average kinetic energy per particle.
+        With k_B = 1 (natural units), T = <KE> = total_KE / N
         """
         if len(self.particles) == 0:
             return 0.0
