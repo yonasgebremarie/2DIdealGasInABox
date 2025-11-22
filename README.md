@@ -26,9 +26,10 @@ git clone https://github.com/yonasgebremarie/2DIdealGasInABox.git
 cd 2DIdealGasInABox
 ```
 
-2. Install dependencies:
+2. Create and activate the Conda environment:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate ideal-gas-2d
 ```
 
 ## Usage

@@ -2,9 +2,10 @@
 
 ## Quick Start
 
-### 1. Install Dependencies
+### 1. Create and Activate the Conda Environment
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate ideal-gas-2d
 ```
 
 ### 2. Run the Simulation
@@ -21,6 +22,7 @@ This will open an animated window showing:
 
 ### Unit Tests
 ```bash
+conda activate ideal-gas-2d
 python test_simulation.py
 ```
 

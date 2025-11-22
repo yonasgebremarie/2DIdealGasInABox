@@ -1,0 +1,7 @@
+name: ideal-gas-2d
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy>=1.20
+  - matplotlib>=3.3
